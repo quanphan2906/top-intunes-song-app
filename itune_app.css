@@ -1,0 +1,32 @@
+#title {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    margin: 30px;
+}
+
+#options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-family: 'Merriweather', serif;
+}
+
+.space {
+    margin: 10px;
+}
+
+#song_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto;
+}
+
+.song_title {
+    margin: 10px;
+}
+
+.songUnique {
+    margin: 30px;
+    align-self: center;
+}

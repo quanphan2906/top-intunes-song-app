@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="itune_app.css">
+    <title>Top Itune songs</title>
+</head>
+
+<body>
+    <div id='root'>
+        <div id='title'>
+            Itune top songs
+        </div>
+        <div id='options'>
+            <span>
+                Feed type
+                <br>
+                <div class = 'space'></div>
+                <select id="top_options">
+                    <option value="topsongs">Top songs</option>
+                    <option value="topalbums">Top albums</option>
+                </select>
+            </span>
+
+            <span>
+                Quantity
+                <br>
+                <div class = 'space'></div>
+                <select id="num_song_options">
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20" selected>20</option>
+                    <option value="25">25</option>
+                    <option value="30">30</option>
+                    <option value="50">50</option>
+                </select>
+            </span>
+        </div>
+
+        <div id='song_container'>
+
+        </div>
+    </div>
+    <script src="itune_app.js"></script>
+</body>
+
+</html>
